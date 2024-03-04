@@ -58,6 +58,7 @@ print('Name: {}'.format(computer_pokemon_data['name']))
 print('Health Points: {}'.format(computer_hp_formatted))
 print('Attack: {}'.format(computer_attack))
 print('Defense: {}'.format(computer_defense))
+print('')
 
 if computer_attack > hp_formatted:
     print('You lose')
